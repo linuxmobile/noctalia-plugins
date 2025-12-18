@@ -14,7 +14,7 @@ DraggableDesktopWidget {
     implicitWidth: 200
     implicitHeight: 80
 
-    showBackground: false
+    showBackground: !(root.pluginApi?.pluginSettings?.hideBackground ?? false)
 
     property int frameIndex: 0
     property bool isRunning: true
