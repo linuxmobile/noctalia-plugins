@@ -168,6 +168,7 @@ Item {
   IpcHandler {
     target: "plugin:hyprland-cheatsheet"
     function toggle() {
+      ensureLogger();
       Logger.i("HyprlandCheatsheet: IPC toggle called");
       if (pluginApi) {
         runGenerator();
