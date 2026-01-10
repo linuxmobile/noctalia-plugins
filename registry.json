@@ -77,6 +77,28 @@
       "lastUpdated": "2026-01-07T08:58:45-05:00"
     },
     {
+      "id": "hyprland-cheatsheet",
+      "name": "Keybind Cheatsheet (Hyprland)",
+      "version": "1.2.1",
+      "author": "blacku",
+      "description": "Dynamic keyboard shortcuts cheatsheet that reads and displays Hyprland keybindings. Requires Hyprland window manager.",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [],
+      "lastUpdated": "2026-01-07T23:11:45+01:00"
+    },
+    {
+      "id": "hyprland-steam-overlay",
+      "name": "Steam Overlay (Hyprland)",
+      "version": "1.7.0",
+      "author": "blacku",
+      "description": "Steam overlay with automatic window management for Hyprland. Automatically moves all Steam windows (except fullscreen games) to overlay workspace as floating windows. Main 3 windows (Friends, Client, Chat) are positioned in a row. Additional windows are brought to top. If new windows don't appear on top, toggle overlay off/on (Super+S twice). Fully responsive with percentage-based layout. Requires Hyprland window manager.",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [],
+      "lastUpdated": "2026-01-10T21:31:31+01:00"
+    },
+    {
       "id": "kagi-quick-search",
       "name": "Kagi Quick Search",
       "version": "1.0.0",
